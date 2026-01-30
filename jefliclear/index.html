@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JefLi Clear - Limpeza Especializada</title>
+    <meta name="description" content="Especialistas em limpeza de vidros, espelhos, toldos, fachadas e pós-obras. Agende agora!">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fonte Inter para visual moderno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Ícones via Phosphor Icons (mais moderno que FontAwesome) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>JefLi <span class="highlight">Clear</span></h1>
+            </div>
+            <nav class="nav">
+                <a href="#home">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato" class="btn-primary">Agendar Agora</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button class="close-menu-btn" aria-label="Fechar Menu">
+            <i class="ph ph-x"></i>
+        </button>
+        <a href="#home">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Agendar</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h2>Limpeza Impecável para<br>Vidros e Fachadas</h2>
+                <p>Especialistas em limpeza de vidros, toldos, espelhos e pós-obras. Atendemos a domicílio com qualidade e agilidade.</p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn-primary">Solicitar Orçamento</a>
+                    <a href="#servicos" class="btn-secondary">Nossos Serviços</a>
+                </div>
+            </div>
+            <div class="hero-image carousel-container">
+                <img src="imagem1.jpg" alt="Limpeza de vidros" class="carousel-slide active">
+                <img src="imagem3.jpg" alt="Limpeza de fachadas" class="carousel-slide">
+                <img src="imagem4.jpg" alt="Limpeza pós-obra" class="carousel-slide">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="section services">
+        <div class="container">
+            <div class="section-header">
+                <h3>Nossos Serviços</h3>
+                <p>Soluções completas de limpeza para sua casa ou comércio.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-box"><i class="ph ph-windows-logo"></i></div>
+                    <h4>Vidros e Espelhos</h4>
+                    <p>Limpeza detalhada de vidros, janelas, portas de vidro e espelhos, sem manchas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="ph ph-house-line"></i></div>
+                    <h4>Fachadas</h4>
+                    <p>Renovação da aparência da sua casa ou loja com limpeza profissional de fachadas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="ph ph-umbrella"></i></div>
+                    <h4>Toldos</h4>
+                    <p>Remoção de sujeira, mofo e manchas de toldos e coberturas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="ph ph-broom"></i></div>
+                    <h4>Pós-Obras</h4>
+                    <p>Limpeza pesada para deixar tudo pronto para morar após reformas ou construções.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="section about">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="imagem2.jpg" alt="Equipe de limpeza profissional" class="img-cover">
+            </div>
+            <div class="about-content">
+                <h3>Sobre a JefLi Clear</h3>
+                <p>Fundada com o objetivo de facilitar a vida dos nossos clientes, a JefLi Clear é especializada em limpeza profissional a domicílio. Não temos barreiras: vamos até você para garantir que seu ambiente fique brilhando.</p>
+                <ul class="features-list">
+                    <li><i class="ph ph-check-circle"></i> Atendimento a domicílio</li>
+                    <li><i class="ph ph-check-circle"></i> Profissionais de confiança</li>
+                    <li><i class="ph ph-check-circle"></i> Produtos de alta qualidade</li>
+                    <li><i class="ph ph-check-circle"></i> Agilidade no agendamento</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Booking Section -->
+    <section id="contato" class="section contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Fale Conosco</h3>
+                    <p>Pronto para deixar tudo limpo? Agende agora mesmo pelo formulário ou entre em contato direto.</p>
+                    
+                    <div class="info-item">
+                        <i class="ph ph-whatsapp-logo"></i>
+                        <div>
+                            <span>WhatsApp</span>
+                            <a href="https://wa.me/554588217212" target="_blank">(+55) 45 98821-7212</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="ph ph-envelope-simple"></i>
+                        <div>
+                            <span>Email</span>
+                            <a href="mailto:jefliclear@gmail.com">jefliclean@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="ph ph-map-pin"></i>
+                        <div>
+                            <span>Endereço</span>
+                            <p>Rua Sestílio Parizotto, 6143<br>Toledo - PR</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-box">
+                        <p>Atendemos em toda a região. Consulte disponibilidade!</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-box">
+                    <h3>Solicitar Agendamento</h3>
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" required placeholder="Seu nome">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Serviço Desejado</label>
+                            <select id="service" required>
+                                <option value="" disabled selected>Selecione uma opção</option>
+                                <option value="Limpeza de Vidros">Limpeza de Vidros</option>
+                                <option value="Limpeza de Espelhos">Limpeza de Espelhos</option>
+                                <option value="Limpeza de Toldos">Limpeza de Toldos</option>
+                                <option value="Limpeza de Fachada">Limpeza de Fachada</option>
+                                <option value="Limpeza Pós-Obra">Limpeza Pós-Obra</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Endereço</label>
+                            <input type="text" id="address" required placeholder="Rua, Número, Bairro">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">Data Preferida</label>
+                            <input type="date" id="date" required>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            <i class="ph ph-whatsapp-logo"></i> Agendar pelo WhatsApp
+                        </button>
+                        <p class="form-note">Ao clicar, você será redirecionado para o WhatsApp com os dados preenchidos.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <h2>JefLi Clear</h2>
+            </div>
+            <p>&copy; 2024 JefLi Clear. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
